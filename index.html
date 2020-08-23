@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Nitin's Portfolio</title>
+        <link rel="shortcut icon" href="engineer.png">
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <section>
+            <nav>
+                <a href="#" class="logo">Nitin</a>
+                <ul>
+                    <li><a href="#" class="active">E-mail: nitin160898@gmail.com</a></li>
+                    <li><a href="#" class="active">Contact No.:7056423224</a></li>
+                </ul>
+                <div class="toggle"></div>
+            </nav>
+            <div class="text-container">
+                <h2>Er. Nitin</h2>
+                <p>I'm a passionate Software Engineer</p>
+                <button class="hire" onclick="window.location.href='https://www.linkedin.com/in/nitin-khosya-0a5a2419b';">Hire me</button>
+                <button class="download-resume" onclick="window.location.href='https://drive.google.com/drive/folders/1wrVmtc2BlEg7MCaLvHz9cmUMbj_qDruG?usp=sharing';">Download Resume</button>
+            </div>
+            <img class="cover-right" alt="Nitin" src="cover-right.jpg" >
+        </section>
+        <div class="about-container">
+            <img src="about.jpg">
+            <div class="about-text">
+                <p>About Me</p>
+                <p>Hello! I am Nitin.</p>
+                <p>I am a Computer Science Enineering graduate from Central University of Haryana. </p>
+                <p>Looking to obtain the position of software developer, having good ability to engineer responsive answer after analysing problem.I want to  work in a firm with a professional work driven environment where I can utilize and apply my knowledge & skills which would enable me as a fresh graduate to grow while fulfilling organizational goals. </p>
+                <button onclick="window.location.href='https://www.linkedin.com/in/nitin-khosya-0a5a2419b';">Hire Me</button>
+                <button onclick="window.location.href='https://drive.google.com/drive/folders/1wrVmtc2BlEg7MCaLvHz9cmUMbj_qDruG?usp=sharing';">Download Resume</button>
+                
+            </div>
+        </div>
+        <div class="fields">
+            <div class="fields-text">
+                <p>Fields</p>
+                <p>I've good knowledge of Web Development, SFDC & Data Science.</p>
+                <div class="box-container">
+                    <div class="box-1">
+                        <span>1</span>
+                        <p class="heading">Web Development</p>
+                        <p class="details">I've good knowledge of Web Development. I develop web pages using HTML, CSS, Javascript. I also have good knowledge of React.js. </p>
+                        <button>Read More</button>
+                    </div>
+                    <div class="box-2">
+                        <span>2</span>
+                        <p class="heading">SFDC</p>
+                        <p class="details">I've good knowledge of SFDC.I have worked on both Salesforce Reports & Dashboards as well as on wave analytics. I am having hands on experience working on SFDC. </p>
+                        <button>Read More</button>
+                    </div>
+                    <div class="box-3">
+                        <span>3</span>
+                        <p class="heading">Data Science</p>
+                        <p class="details">I've average knowledge of Data Science. I implemented it using numpy and pandas library of Python. I am having hands on experience working on Data Science. </p>
+                        <button>Read More</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="contact-me">
+            <p>
+                For any suggestion.
+            </p>
+            <button onclick="window.location.href='https://www.linkedin.com/in/nitin-khosya-0a5a2419b';">Contact Me</button>
+        </div>
+        <footer>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/nitin-khosya-0a5a2419b"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/nitin.khosya.96"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.twitter.com/khosyanitin?s=08"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/yadavnitinkhosya"><i class="fab fa-instagram"></i></a>
+                
+            </div>
+            <p class="copyright"> Designed by Nitin</p>
+        </footer>
+        <div class="a-social-b">
+            <a href="https://www.linkedin.com/in/nitin-khosya-0a5a2419b"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.facebook.com/nitin.khosya.96"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.twitter.com/khosyanitin?s=08"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/yadavnitinkhosya"><i class="fab fa-instagram"></i></a>
+        </div>
+       
+        <script type="text/javascript" src="JQuery.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+		        $('.toggle').click(function(){
+			        $('.toggle').toggleClass('active')
+			        $('nav').toggleClass('active')
+		})
+	});
+        </script>
+    </body>
+</html>
